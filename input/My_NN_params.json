@@ -1,0 +1,13 @@
+[{
+    "n_layers": 3,
+    "n_neurons": 30,
+    "dim": 2,
+    "learning_rate": 1e-3
+  },
+  {
+    "num_train_points": 100,
+    "num_pde_points": 1000,
+    "num_test_points": 10000,
+    "seed": 1,
+    "num_epochs":3000
+  }]
