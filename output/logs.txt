@@ -1,4 +1,4 @@
-Input file parameters:  [{'n_layers': 3, 'n_neurons': 30, 'dim': 2, 'learning_rate': 0.001}, {'num_train_points': 100, 'num_pde_points': 1000, 'num_test_points': 10000, 'seed': 1, 'num_epochs': 3000}] 
+Input file parameters:  [{'n_layers': 3, 'n_neurons': 30, 'dim': 2, 'learning_rate': 0.001}, {'num_train_points': 100, 'num_pde_points': 1000, 'num_test_points': 10000, 'seed': 1, 'num_epochs': 2800}] 
 
 
 Model
@@ -9,5 +9,25 @@ Model
  Learning rate of the NN: 0.001 
 
 
-estimated mu:   0.999490
-relative error: 5.10e-04
+
+
+------ NN Model ------
+
+elapsed time: 3.99 s
+loss: 1.708658237475902e-05
+
+
+------ PINN Model ------
+
+elapsed time: 31.65 s
+loss fit: 0.00014992359501775354 s
+loss pde: 0.00048463355051353574 s
+
+
+------ PINN Model ------
+
+elapsed time: 31.64 s
+loss fit: 0.00013128970749676228 s
+loss pde: 0.0003506102366372943 s
+estimated mu:   1.000044
+relative error: 4.37e-05

@@ -9,5 +9,5 @@
     "num_pde_points": 1000,
     "num_test_points": 10000,
     "seed": 1,
-    "num_epochs":3000
+    "num_epochs":2800
   }]
