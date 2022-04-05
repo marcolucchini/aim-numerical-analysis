@@ -1,5 +1,13 @@
 Input file parameters:  [{'n_layers': 3, 'n_neurons': 30, 'dim': 2, 'learning_rate': 0.001}, {'num_train_points': 100, 'num_pde_points': 1000, 'num_test_points': 10000, 'seed': 1, 'num_epochs': 3000}] 
 
 
+Model
+ Number of layers: 3
+ Number of neurons: 30
+ Activation function: tanh
+ Optimizer: keras.optimizers.Adam
+ Learning rate of the NN: 0.001 
+
+
 estimated mu:   0.999490
 relative error: 5.10e-04

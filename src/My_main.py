@@ -98,7 +98,7 @@ u_test       = u_ex(test_points.x, test_points.y)     # e soluzoone esatta
 model_NN = NN(u_ex,**NN_params[0])
 
 # Printate la rete neurale costruita, cosi' da vedere tutti i parametri scelti
-print("Model\n", model_NN,  "\n\n")
+print("Model\n", model_NN,  "\n\n", file=f)
 
 # Grazie al metodo fit, allenate la rete neurale cosi' che interpoli i valori
 # della soluzione esatta
